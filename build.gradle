@@ -1,0 +1,4 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply from: 'gradle/lib.gradle'
+apply from: 'gradle/ide.gradle'

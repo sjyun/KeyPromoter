@@ -1,0 +1,15 @@
+apply plugin: 'idea'
+
+
+idea.module.iml{
+  beforeMerged{
+      module -> module.dependencies.clear()
+  }
+}
+
+
+idea{
+    module{
+      downloadSources = true
+  }
+}
